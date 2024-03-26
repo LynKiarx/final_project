@@ -36,7 +36,7 @@
         box-shadow: 4px 
         background-color: #5c91f0;
         color: #fb6f92;
-        font-size: 20px;
+        font-size: 22px;
     }
     .btn-info{
         background-color: #5c91f0;
@@ -81,7 +81,7 @@
             <td class="mainrow"><img src="/images/{{ $product->image }}" width="100px"></td>
             <td class="mainrow">{{ $product->name }}</td>
             <td class="mainrow">{{ $product->detail }}</td>
-            
+
             <td class="mainrow">
                 <form action="{{ route('products.destroy',$product->id) }}" method="POST">
      
